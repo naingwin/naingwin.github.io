@@ -16873,6 +16873,9 @@ h6 {
   
 }
 @media (max-width: 75rem) {
+  .wrapper .profile-img {
+    left: 100px;
+    }
   h1,
   h2,
   h3,
@@ -16933,6 +16936,9 @@ h6 {
   }
 }
 @media (max-width: 62.5rem) {
+  .wrapper .profile-img {
+    position: inherit !important;
+    }
   h1,
   h2,
   h3,
@@ -16969,6 +16975,9 @@ h6 {
   }
 }
 @media (max-width: 50rem) {
+  .wrapper .profile-img {
+    position: inherit !important;
+    }
   h1,
   h2,
   h3,
@@ -17028,6 +17037,9 @@ h6 {
   .hello .wrapper {
     font-size: 1.5rem;
   }
+  .wrapper .profile-img {
+    position: inherit !important;
+    }
   h1,
   h2,
   h3,
@@ -17073,4 +17085,13 @@ h6 {
   .wrapper > ul > li:nth-child(2n+2) {
     background: #c00;
   }
+}
+
+
+.wrapper .profile-img {
+  position: absolute;
+  left: 200px;
+  top: 340px;
+  border-radius: 50%;
+  border: 1px solid #fff;
 }
