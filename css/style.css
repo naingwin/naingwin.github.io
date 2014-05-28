@@ -16731,16 +16731,17 @@ h6 {
   vertical-align: middle;
   margin: 0 auto;
   padding: 5rem 0;
-  background-color: #fff;
+  background-color: #ecf0f1;
   font-size: 1.125rem;
   text-align: center;
-  border: 0.625rem solid #000;
+  /*border: 0.625rem solid #c0392b;*/
   -webkit-box-shadow: 0.25rem 0.25rem 0.3125rem rgba(0,0,0,0.5);
   box-shadow: 0.25rem 0.25rem 0.3125rem rgba(0,0,0,0.5);
 }
 .wrapper h1 {
   margin-top: 0;
   font-family: 'Indie Flower';
+  color: #e74c3c;
 }
 .wrapper > ul {
   max-width: 75rem;
@@ -16751,8 +16752,8 @@ h6 {
 .wrapper > ul > li {
   -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0,0,0,0.5);
   box-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0,0,0,0.5);
-  border: 0.5rem solid #000;
-  background-color: #c00;
+  /*border: 0.5rem solid #000;*/
+  background-color: #16a085;
   float: left;
   width: 24.5%;
   margin: 0 0.25%;
@@ -16768,7 +16769,7 @@ h6 {
 .wrapper > ul > li:nth-child(8n+3),
 .wrapper > ul > li:nth-child(8n+6),
 .wrapper > ul > li:nth-child(8n+8) {
-  background: #ffc600;
+  background: #e74c3c;
 }
 .wrapper > ul > li:nth-child(4n+5) {
   clear: left;
@@ -16784,6 +16785,8 @@ h6 {
 }
 .wrapper > ul li h3 {
   margin: 0;
+  color: #fff;
+  font-family: 'Josefin Sans';
   -webkit-transform: skewY(1.5deg);
   -moz-transform: skewY(1.5deg);
   -o-transform: skewY(1.5deg);
@@ -16801,10 +16804,11 @@ h6 {
   -o-transform: skewY(1.5deg);
   -ms-transform: skewY(1.5deg);
   transform: skewY(1.5deg);
+  color: #fff;
 }
 .prev,
 .next {
-  background-color: #000;
+  background-color: #ecf0f1;
   -webkit-box-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0,0,0,0.5);
   box-shadow: 0.0625rem 0.0625rem 0.1875rem rgba(0,0,0,0.5);
   font-size: 1.125rem;
@@ -16844,18 +16848,19 @@ h6 {
   font-size: 2.625rem;
 }
 .hello .wrapper h1 {
-  color: #ffc600;
-  font-size: 5.2em;
+  color: #c0392b;
+  font-size: 5em;
   line-height: 0.7em;
-  margin-bottom: 0.7em;
-  font-family: 'Bangers';
-  background-color: #000;
-  text-shadow: 0.75rem 0.75rem 0 #000, -0.1875rem -0.1875rem 0 #000, 0.1875rem -0.1875rem 0 #000, -0.1875rem 0.1875rem 0 #000, 0.1875rem 0.1875rem 0 #000;
+  margin-bottom: 0.3em;
+  font-family: 'Play';
+/*  background-color: #000;
+  text-shadow: 0.75rem 0.75rem 0 #000, -0.1875rem -0.1875rem 0 #000, 0.1875rem -0.1875rem 0 #000, -0.1875rem 0.1875rem 0 #000, 0.1875rem 0.1875rem 0 #000;*/
 }
 .hello .wrapper h3,
 .hello .wrapper h4 {
   font-family: 'Indie Flower';
-  margin: 1em 0;
+  margin: 0.3em 0;
+  color: #e74c3c;
 }
 .tools .wrapper ul li {
   height: 8.75rem;
@@ -16864,7 +16869,8 @@ h6 {
   height: 8.75rem;
 }
 .contact .wrapper ul li a {
-  color: #000;
+  color: #fff;
+  
 }
 @media (max-width: 75rem) {
   h1,
